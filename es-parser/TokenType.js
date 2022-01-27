@@ -5,7 +5,8 @@ const TokenType = {
 	SYMBOL_MOINS : 'SYMBOL_MOINS',
 	SYMBOL_FOIS : 'SYMBOL_FOIS',
 	SYMBOL_O_PAR : 'SYMBOL_O_PAR',
-	SYMBOL_F_PAR : 'SYMBOL_F_PAR'
+	SYMBOL_F_PAR : 'SYMBOL_F_PAR',
+	EOF : 'EOF'
 }
 Object.freeze(TokenType)
 

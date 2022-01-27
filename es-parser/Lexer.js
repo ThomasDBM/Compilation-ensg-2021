@@ -119,7 +119,8 @@ class Lexer {
 		while (this.parseNumber() || this.parseSymbol() || this.avoidSpace()) {
 			// nothing to do, consume already done in functions
 		}
-
+		this._currentWord = 'eof'
+		this.produce(TokenType.EOF)
 		return this._tokens
 	}
 
